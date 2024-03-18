@@ -1,46 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghibli</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
     <script src="js/app.js" defer></script>
-    <script src="js/rain.js" defer></script>
+    <!-- <script src="js/rain.js" defer></script> -->
 </head>
+
 <body>
-    
-<div id="lending">
-<div class="logo" style="background-image: url(img/logo.svg);"></div>
-<section class="layers">
-    <div class="layers__conteiner">
-        <div class="layers__item layer-1" style="background-image: url(img/layer1.png);"></div>
-        <div class="layers__item layer-2" style="background-image: url(img/layer1.png);"></div>
-        <div class="layers__item layer-3" style="background-image: url(img/layer2.png);"></div>
-        <div class="layers__item layer-4" style="background-image: url(img/layer3.png);"></div>
-        <div class="layers__item layer-5" style="background-image: url(img/layer4.png);"></div> 
-        <div class="layers__item layer-6" style="background-image: url(img/layer5.png);">
+
+    <div class="menu">
+        <div class="logo"></div>
+        <div class="menu__container" style="display: none;">
+            <p class="films" onclick="toggleBlock(this.classList)">Фильмы</p>
+            <p>История</p>
+            <p>Персонажи</p>
         </div>
-        <div class="layers__item layer-7" style="background-image: url(img/layer7.png);">
-            <canvas class="rain"></canvas>
-        </div>
-        <div class="layers__item layer-8">
-            <div class="content">
-                <button class="button-start">Start</button>
+    </div>
+
+    <div id="lending" style="display: flex;">
+        <section class="layers">
+            <div class="layers__conteiner">
+                <div class="layers__item layer-1" style="background-image: url(img/layer1.png);"></div>
+                <div class="layers__item layer-2" style="background-image: url(img/layer1.png);"></div>
+                <div class="layers__item layer-3" style="background-image: url(img/layer2.png);"></div>
+                <div class="layers__item layer-4" style="background-image: url(img/layer3.png);"></div>
+                <div class="layers__item layer-5" style="background-image: url(img/layer4.png);"></div>
+                <div class="layers__item layer-6" style="background-image: url(img/layer5.png);">
+                </div>
+                <div class="layers__item layer-7" style="background-image: url(img/layer7.png);">
+                    <canvas class="rain"></canvas>
+                </div>
+                <div class="layers__item layer-8">
+                    <div class="content">
+                        <button class="button-start" onclick="toggleBlock(this.classList)">Start</button>
+                    </div>
+                </div>
+                <div class="layers__item layer-9" style="background-image: url(img/layer6.png);"></div>
+                <div class="layers__item layer-10" style="background-image: url(img/layer10.png);"></div>
+                <div class="layers__item layer-11" style="background-image: url(img/layer11.png);"></div>
+                <div class="layers__item layer-12" style="background-image: url(img/layer12.png);"></div>
+            </div>
+        </section>
+    </div>
+    <div class="catalogue_conteiner" id="catalogue" style=" height: 100vh; display:none">
+        <section class="article__container">
+            <audio id="music">
+                <source src="music/merrygoround.mp3" type="audio/mpeg" />
+            </audio>
+            <video autoplay loop muted class="background-video">
+                <source src="video/movingcastle.mp4" type="video/mp4">
+            </video>
+            <div class="swiper-container swiper-container1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div id="#film1" class="card film"> <img src="img/film1.webp"></div>
+                        <div id="#film2" class="card film"><img src="img/film2.webp"></div>
+                        <div id="#film3" class="card film"><img src="img/film3.webp"></div>
+                        <div id="#film4" class="card film"><img src="img/film4.webp"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div id="#film5" class="card film"> <img src="img/film5.webp"></div>
+                        <div id="#film6" class="card film"><img src="img/film6.webp"></div>
+                        <div id="#film7" class="card film"><img src="img/film7.webp"></div>
+                        <div id="#film8" class="card film"><img src="img/film8.webp"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div id="#film9" class="card film"> <img src="img/film9.webp"></div>
+                        <div id="#film10" class="card film"><img src="img/film10.webp"></div>
+                        <div id="#film11" class="card film"><img src="img/film11.webp"></div>
+                        <div id="#film12" class="card film"><img src="img/film12.webp"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div id="#film13" class="card film"> <img src="img/film13.webp"></div>
+                        <div id="#film14" class="card film"><img src="img/film14.webp"></div>
+                        <div id="#film15" class="card film"><img src="img/film15.webp"></div>
+                        <div id="#film16" class="card film"><img src="img/film16.webp"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <div class="film__container" style="display:none; height: 100vh;">
+        <section class="film_article">
+            <div class="trailer_container">
+                <video id="trailer" autoplay loop muted class="background-video_film">
+                    <source src="" type="video/mp4">
+                </video>
+                <div class="info_about">
+                    <p id="EnglishName"></p>
+                    <h1 id="MainName"></h1>
+                    <p id="JapaneseName"></p>
+                </div>
+            </div>
+        </section>
+        <div class="main_quote">
+            <div class="quote__container">
+                <h1 id="MainQuote"></h1>
             </div>
         </div>
-        <div class="layers__item layer-9" style="background-image: url(img/layer6.png);"></div>
-        <div class="layers__item layer-10" style="background-image: url(img/layer10.png);"></div>
-        <div class="layers__item layer-11" style="background-image: url(img/layer11.png);"></div>
-        <div class="layers__item layer-12" style="background-image: url(img/layer12.png);"></div>
+        <div class="movie_story">
+            <div class="movie_article">
+                <p id="History"></p>
+                <p id="Story"></p>
+            </div>
+            <div class="movie_photo">
+                <img id="MainPhoto" src="" alt="">
+            </div>
+        </div>
+        <div class="characters">
+            <h1>characters</h1>
+            <div class="swiper-container swiper-container2">
+
+                <div class="swiper-wrapper swiper-wrapper2">
+                    <!-- <div class="swiper-slide">
+                        <div id="character1" class="card"> <img src="">
+                            <p></p>
+                        </div>
+                        <div id="character2" class="card"><img src="">
+                            <p></p>
+                        </div>
+                        <div id="character3" class="card"><img src="">
+                            <p></p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </div>
     </div>
-</section>
-</div>
-<div class="catalogue_conteiner" id="catalogue" style="display: none;">
-    
-</div>
 
 
 </body>
+
 </html>

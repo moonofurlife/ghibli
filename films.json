@@ -1,0 +1,291 @@
+{
+    "film1": {
+        "englishName": "Sen to Chihiro no Kamikakushi",
+        "mainName": "Spirited Away",
+        "japaneseName": "千と千尋の神隠し",
+        "mainQuote": "Once you do something, you never forget. Even if you can't remember.",
+        "history": "«Унесённые при́зраками» (яп. 千と千尋の神隠し Сэн то Тихиро но камикакуси, «Сэн и похищенная ками Тихиро») — полнометражный аниме-фильм режиссёра Хаяо Миядзаки, снятый на студии «Гибли» в 2001 году. Премьера фильма в Японии состоялась 20 июля 2001 года, а в России 31 декабря 2002 года.Фильм имел огромный успех у критиков и зрителей, а также фигурирует во многих списках величайших анимационных фильмов в истории. Он стал самым успешным фильмом в истории Японии, с кассовыми сборами около 274 млн долларов США.",
+        "story": "Маленькая Тихиро вместе с мамой и папой переезжают в новый дом. Заблудившись по дороге, они оказываются в странном пустынном городе, где их ждет великолепный пир. Родители с жадностью набрасываются на еду и к ужасу девочки превращаются в свиней, став пленниками злой колдуньи Юбабы, властительницы таинственного мира древних богов и могущественных духов.",
+        "mainPhotoSrc": "img/film1_prev.jpeg",
+        "trailer": "video/film1.mp4",
+        "characters": [
+            {"id": "character1", "name": "Chihiro", "photoSrc": "img/Chihiro.jpeg"},
+            {"id": "character2", "name": "Haku", "photoSrc": "img/haku.jpeg"},
+            {"id": "character3", "name": "No-Face", "photoSrc": "img/faceless.jpeg"},
+            {"id": "character4", "name": "Yubaba", "photoSrc": "img/yubaba.jpeg"},
+            {"id": "character5", "name": "Kamajī", "photoSrc": "img/kamajī .jpeg"},
+            {"id": "character6", "name": "Lin", "photoSrc": "img/lin.jpeg"},
+            {"id": "character7", "name": "Boh", "photoSrc": "img/boh.jpeg"},
+            {"id": "character8", "name": "Akio Ogino", "photoSrc": "img/Akio_Ogino.jpeg"},
+            {"id": "character9", "name": "Yuko Ogino", "photoSrc": "img/Yuko_Ogino.jpeg"}
+        ]
+    },
+    "film2": {
+        "englishName": "Howl no Ugoku Shiro",
+        "mainName": "Howl's moving casle",
+        "japaneseName": "ハウルの獄四郎",
+        "mainQuote": "a heart's a heavy burden",
+        "history": "«Ходячий за́мок» (яп. ハウルの動く城 Хауру но угоку сиро, букв. «Движущийся замок Хаула») — полнометражный мультипликационный фильм, выпущенный студией Ghibli в 2004 году. Создан японским режиссёром Хаяо Миядзаки по мотивам одноимённого сказочного романа английской писательницы Дианы Уинн Джонс. Был номинирован на 78-ю премию «Оскар» (2006) за «лучший анимационный полнометражный фильм», но уступил мультфильму «Уоллес и Громит: Проклятие кролика-оборотня».",
+        "story": "Злая ведьма заточила 18-летнюю Софи в тело старухи. В поисках того, кто поможет ей вернуться к своему облику, Софи знакомится с могущественным волшебником Хаулом и его демоном Кальцифером. Кальцифер должен служить Хаулу по договору, условия которого он не может разглашать. Девушка и демон решают помочь друг другу избавиться от злых чар…",
+        "mainPhotoSrc": "img/film2_prev.jpeg",
+        "trailer": "video/film2.mp4",
+        "characters": [
+            {"id": "character1", "name": "Sofia Hatter-Pendragon", "photoSrc": "img/sofihatter_young.jpeg"},
+            {"id": "character2", "name": "Howl Pendragon", "photoSrc": "img/howl.jpeg"},
+            {"id": "character3", "name": "Markl Pendragon", "photoSrc": "img/marcl.jpeg"},
+            {"id": "character4", "name": "Witch of the Waste", "photoSrc": "img/WitchoftheWaste.jpeg"},
+            {"id": "character5", "name": "Calcifer", "photoSrc": "img/Calcifer.jpeg"},
+            {"id": "character6", "name": "Heen", "photoSrc": "img/Heen.jpeg"}
+        ]
+    },
+    "film3": {
+        "englishName": "Tonari no Totoro",
+        "mainName": "My Neighbor Totoro",
+        "japaneseName": "となりのトトロ",
+        "mainQuote": "Try Laughing. Then Whatever Scares You Will Go Away.",
+        "history": "«Мой сосед То́торо» (яп. となりのトトロ тонари но тоторо) — полнометражный аниме-фильм, созданный японским мультипликатором Хаяо Миядзаки в 1988 году.История, рассказанная в фильме, происходит в городе Токородзава, префектуре Сайтама. Миядзаки жил в Токородзаве, который сейчас является «спальным районом» Токио. Раньше Токородзава был сельскохозяйственной местностью, окружённой холмами.",
+        "story": "Переехав в деревню, две маленькие сестры, старшая (Сацуки) и младшая (Мэй), знакомятся с лесным духом, которого Мэй называет «Тоторо» (искаженное «тролль»). Подружившись с девочками, Тоторо не только устраивает им воздушную экскурсию по своим владениям, но и помогает повидаться с мамой, которая лежит в больнице.",
+        "mainPhotoSrc": "img/film3_prev.jpeg",
+        "trailer": "video/film3.mp4",
+        "characters": [
+            {"id": "character1", "name": "Satsuki Kusakabe", "photoSrc": "img/SatsukiKusakabe.jpeg"},
+            {"id": "character2", "name": "Totoro", "photoSrc": "img/totoro.jpeg"},
+            {"id": "character3", "name": "Mei Kusakabe", "photoSrc": "img/MeiKusakabe.jpeg"}
+        ]
+    },
+    "film4": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film5": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film6": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film7": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film8": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film9": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film10": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film11": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film12": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film13": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film14": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film15": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    },
+    "film16": {
+        "englishName": "",
+        "mainName": "",
+        "japaneseName": "",
+        "mainQuote": "",
+        "history": "",
+        "story": "",
+        "mainPhotoSrc": "",
+        "trailer": "",
+        "characters": [
+            {"id": "character1", "name": "", "photoSrc": ""},
+            {"id": "character2", "name": "", "photoSrc": ""},
+            {"id": "character3", "name": "", "photoSrc": ""},
+            {"id": "character4", "name": "", "photoSrc": ""},
+            {"id": "character5", "name": "", "photoSrc": ""},
+            {"id": "character6", "name": "", "photoSrc": ""}
+        ]
+    }
+
+}
